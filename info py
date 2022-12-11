@@ -56,7 +56,7 @@ IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
+CUSTOM_FILE_CAPTION = """<b>➤ Fɪʟᴇ ɴᴀᴍᴇ 📂 :</b><b>{file_name}</b> <b>➤ Sɪᴢᴇ 👀 :</b><b>{file_size}</b> <b>╭─────── • ◆ • ───────╮ 📮ᴊᴏɪɴ : <a href=https://t.me/ML_LINKS_01>ᴄʜᴀɴɴᴇʟ</a> 🔖 ᴍᴏᴠɪᴇs : <a href=https://t.me/UniversalFilimCity>ɢʀᴏᴜᴘ</a> ❤️ Cᴇᴏ : <a href=https://t.me/CEO_shazbots>Tᴏᴜᴄʜ</a> ╰─────── • ◆ • ───────╯   ♡ ㅤ   ❍ㅤ     ⎙      ⌲   ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ   ˢᵃᵛᵉ   ˢʰᵃʳᵉ</b><b>➤ Fɪʟᴇ ɴᴀᴍᴇ 📂 :</b><b>{file_name}</b> <b>➤ Sɪᴢᴇ 👀 :</b><b>{file_size}</b> <b>╭─────── • ◆ • ───────╮ 📮ᴊᴏɪɴ : <a href=https://t.me/+Nl4geHF8Cpo4Yzc1>ᴄʜᴀɴɴᴇʟ</a> 🔖 ᴍᴏᴠɪᴇs : <a href=https://t.me/moviehubofficialTG>ɢʀᴏᴜᴘ</a> ❤️ Cᴇᴏ : <a href=https://t.me/shabeer_dxb0>Tᴏᴜᴄʜ</a> ╰─────── • ◆ • ───────╯   ♡ ㅤ   ❍ㅤ     ⎙      ⌲   ˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ   ˢᵃᵛᵉ   ˢʰᵃʳᵉ</b>"""
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
